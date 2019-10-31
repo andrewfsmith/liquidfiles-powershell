@@ -119,8 +119,10 @@ $json = @"
 Function Upload-File-and-Email{
     param
     (
-    [String]$APIKey,
-    [String]$Website,
+#    [String]$APIKey,
+    [String]$apikey,
+    [String]$url,
+#    [String]$Website,
     [String]$File,
     [String]$EMailAddress
     )
